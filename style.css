@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: brown;
+    background-image: url(images.2/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+.logoimg{
+    display: flex;
+}
+.logoimg:hover{
+    background-color: white;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.logoword{
+    display: flex;
+    font-size: 4em;
+    color: black;
+    text-decoration:none;
+}
+.head{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding-right: 60px;
+    justify-content: space-between;
+    
+    
+}
+.headstyle{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 2px;
+    padding: 5px 10px;
+    font-size: 2.5em;
+    margin: 2px;
+    opacity: 70%;
+}
+.headstyle:hover{
+    color: white;
+    background-color: black;
+}
+.code{
+    display: flex;
+    font-size: 4em;
+    color: gray;
+    opacity: 50%;
+    text-transform: uppercase;
+    padding-left: 300px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+.contentimg{
+    size: 20%;
+    border-radius:5px 5px 0 0  ;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 150px;
+    height: 230px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 25px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+    font-size: 1.2em;
+}
+.word{
+    color: rgb(172, 128, 9);
+    font-size: .9em;
+    font-weight: 700;
+}
+.link{
+    color: rgb(114, 62, 3);
+    text-decoration: none;
+    font-size: 0.9em;
+}
+.link:hover{
+    background-color: rgb(209, 101, 13);
+    color: white;
+    border-radius: 3px;
+}
+.search{
+    display: flex;
+    width: 750px;
+    height: 12px;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 4px;
+    align-items: center;
+    padding: 15px 3px;
+    margin: 10px 300px;
+}
+.material-icons{
+    display: flex;
+    color: white;
+    background-color: orange;
+}
